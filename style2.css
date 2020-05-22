@@ -1,0 +1,171 @@
+body{
+    width:100%;
+    margin:0;
+    font-family: sans-serif
+}
+.header{
+    height: 150px;
+    background-color:rgb(41, 15, 15);
+}
+.header h1:first-child  {
+    float: left;
+    color: white;
+    margin-top: 60px;
+    margin-left: 10%;
+    
+}
+.header ul:last-child{
+    float: right;
+    margin-top: 60px;
+    margin-right: 10%;
+    
+}
+.header ul>li{
+list-style-type: none;
+margin: 0 0.5em;
+float: left;
+}
+.header li>a{
+    text-decoration: none;
+    color: white;
+    border-radius: 1em;
+    border-color: lightskyblue;
+    border-style: solid;
+    padding:0.5em;
+    
+}
+.header li>a:hover{
+    background-color:lightskyblue;
+}
+header+div{
+    background-image:url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: 500px;
+    
+}
+#main2_section2_1{
+    margin:0 10% 3% 10%;
+}
+.mains{
+    float: left;
+    margin-left: 2em;
+    width:20%;
+    
+}
+.mains img{
+    width: 100%;
+}
+.mains p{
+    text-align: justify;
+}
+
+.main2_section2_3{
+    float: left;
+    width: 70%;
+    
+}
+.main2_section2_3 img{
+    width: 100%;
+}
+.main2_section2_3{
+    text-align: justify;
+}
+
+.section1{
+background-color: white;
+  margin:0 10% 0 10%;
+  text-align: justify;
+}
+
+.section1 figure{
+width:18%;
+float: left;
+}
+.section1 figure img{
+    clear: both;
+    width: 100%;
+}
+.section2{
+    background-color: rgb(59,21,21);
+    float: left;
+    color: chocolate;
+    height: 500px;
+}
+#section2{
+    margin: 0 10% 0 10%;
+}
+.section2_3figure, .section2_3figure2{
+    width:22%;
+    float: left;   
+}
+.section2 figure{
+    margin: 0;
+}
+
+.section2_3figure p img, .section2_3figure2 p img{
+    float: left;
+    margin-right: 1em;
+}
+.section2_3figure p, .section2_3figure2 p{
+    float: right;
+    
+}
+.section2_figure3{
+   float: left;
+    width: 48%;
+    margin-left: 2em;
+}
+.section2_figure3 img{
+    width: 100%;
+    margin-bottom:2em;
+}
+.section2_figure3 h1{
+    text-align: justify;
+}
+.section2_figure3 p{
+    text-align: left;
+}
+.section3{
+    float: left;
+    background-color: rgb(41, 15, 15);
+    color: rgb(231, 150, 93);
+}
+#section3{
+margin: 0 10% 0 10%;
+}
+.article h1:first-child{
+    text-align: justify;
+}
+.article{
+    float: left;
+    width:60%;
+}
+.article p:first-of-type{
+    text-align: justify;
+}
+.article a{
+    color: rgb(231, 150, 93);
+}
+.aside{
+    float: left;
+    width: 35%;
+    margin-left: 3em;
+}
+.aside a{
+    display: block;
+    color: chocolate;
+    margin-top: 1em;
+    text-align: left;
+}
+.footer{
+    clear: both;
+    background-color: rgb(34, 12, 12);
+    height: 100px;
+}
+.footer p{
+    text-align: center;
+    color: chocolate;
+    
+    padding-top:50px;
+}
